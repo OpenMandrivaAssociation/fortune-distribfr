@@ -21,9 +21,9 @@ BuildRequires: fortune-mod
 %define thanks3 poipoi, Scara
 
 %description
-The best moments of IRC chatting from channels #mandriva-fr ( ex #mandrakefr ), 
-#gentoofr, #lea-linux, on the IRC server irc.freenode.net (in French), and from the
-Mandriva Linux Cooker mailing list.
+The best moments of IRC chatting from channels #mandriva-fr ( ex #mandrakefr ),
+#gentoofr, #lea-linux, on the IRC server irc.freenode.net (in French), and from
+the Mandriva Linux Cooker mailing list.
 
 This package includes octoz fortunes.
 
@@ -34,7 +34,7 @@ Special thanks to:
 
 %description -l fr
 Les meilleurs moments trouvés sur IRC sur les canaux #mandrivafr 
-( ex #mandrakefr ), #gentoofr, #lea-linux, serveur IRC irc.freenode.net, et sur 
+( ex #mandrakefr ), #gentoofr, #lea-linux, serveur IRC irc.freenode.net, et sur
 la mailing-list Mandriva Linux Cooker.
 
 Ce paquet inclut les fortunes octoz.
