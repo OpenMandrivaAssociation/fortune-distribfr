@@ -1,6 +1,6 @@
 %define name fortune-distribfr
 %define version 20070905
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: The best IRC moments by the French Mandr* team
 Summary(fr): Les meilleurs moments IRC par les mandr* français
@@ -57,12 +57,17 @@ for fortune in fr/*;do recode l1..u8 $fortune; done
 %install
 rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
+cd %buildroot%_datadir/games/fortunes/fr
+for x in *.dat; do 
+  ln -s $(echo $x|sed s/.dat//) $(echo $x|sed s/.dat/.u8/) 
+done
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%_datadir/games/fortunes/*
+ %_datadir/games/fortunes/mandrake*
+%lang(fr) %_datadir/games/fortunes/fr/*
 
 
