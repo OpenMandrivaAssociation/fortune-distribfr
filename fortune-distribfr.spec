@@ -1,6 +1,6 @@
 %define name fortune-distribfr
 %define version 20070905
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: The best IRC moments by the French Mandr* team
 Summary(fr): Les meilleurs moments IRC par les mandr* français
@@ -15,6 +15,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: fortune-mod
 BuildRequires: fortune-mod
+BuildRequires: recode
 
 %define thanks Milka, Ennael, Zborg, Zorro, Dolly, Erinmargault, Virginie, Hina,
 %define thanks2 Paysage, Bibi, Cvjetic, Othalia, Mandi, leeloo, Little_Tux_Girl,
@@ -46,6 +47,8 @@ Spéciale dédicace à:
 
 %prep
 %setup -q -c %name
+rm -f fr/*.dat
+for fortune in fr/*;do recode l1..u8 $fortune; done
 
 %build
 %make clean
