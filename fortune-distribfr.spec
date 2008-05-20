@@ -19,7 +19,7 @@ BuildRequires: recode
 
 %define thanks Milka, Ennael, Zborg, Zorro, Dolly, Erinmargault, Virginie, Hina,
 %define thanks2 Paysage, Bibi, Cvjetic, Othalia, Mandi, leeloo, Little_Tux_Girl,
-%define thanks3 poipoi, Scara
+%define thanks3 poipoi, Scara, eponae
 
 %description
 The best moments of IRC chatting from channels #mandriva-fr ( ex #mandrakefr ),
