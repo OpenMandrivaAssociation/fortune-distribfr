@@ -1,6 +1,6 @@
 %define name fortune-distribfr
 %define version 20080829
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: The best IRC moments by the French Mandr* team
 Summary(fr): Les meilleurs moments IRC par les mandr* français
@@ -20,7 +20,7 @@ BuildRequires: recode
 %define thanks Milka, Ennael, Zborg, Zorro, Dolly, Erinmargault, Virginie, Hina,
 %define thanks2 Paysage, Bibi, Cvjetic, Othalia, Mandi, leeloo, Little_Tux_Girl,
 %define thanks3 poipoi, Scara, lafeebleue, Cinaee, eponae, annma, elephantine,
-%define thanks4 melodie
+%define thanks4 melodie, Amaz
 
 %description
 The best moments of IRC chatting from channels #mandriva-fr ( ex #mandrakefr ),
