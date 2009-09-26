@@ -1,6 +1,6 @@
 %define name fortune-distribfr
-%define version 20080829
-%define release %mkrel 5
+%define version 20090926
+%define release %mkrel 1
 
 Summary: The best IRC moments by the French Mandr* team
 Summary(fr): Les meilleurs moments IRC par les mandr* français
@@ -8,7 +8,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
-License: GPL
+License: GPLv2+
 Group: Toys
 URL: http://nanardon.zarb.org/cgi-bin/viewcvs.cgi/?root=fortune
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -20,7 +20,7 @@ BuildRequires: recode
 %define thanks Milka, Ennael, Zborg, Zorro, Dolly, Erinmargault, Virginie, Hina,
 %define thanks2 Paysage, Bibi, Cvjetic, Othalia, Mandi, leeloo, Little_Tux_Girl,
 %define thanks3 poipoi, Scara, lafeebleue, Cinaee, eponae, annma, elephantine,
-%define thanks4 melodie, Amaz, Jehane
+%define thanks4 melodie, Amaz, Jehane, Djezael
 
 %description
 The best moments of IRC chatting from channels #mandriva-fr ( ex #mandrakefr ),
