@@ -1,6 +1,6 @@
 %define name fortune-distribfr
 %define version 20090926
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: The best IRC moments by the French Mandr* team
 Summary(fr): Les meilleurs moments IRC par les mandr* français
