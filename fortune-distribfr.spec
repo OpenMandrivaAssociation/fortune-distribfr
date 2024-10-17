@@ -10,7 +10,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPLv2+
 Group: Toys
-URL: http://nanardon.zarb.org/cgi-bin/viewcvs.cgi/?root=fortune
+URL: https://nanardon.zarb.org/cgi-bin/viewcvs.cgi/?root=fortune
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: fortune-mod
