@@ -14,6 +14,7 @@ URL: https://nanardon.zarb.org/cgi-bin/viewcvs.cgi/?root=fortune
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: fortune-mod
+BuildRequires:	make
 BuildRequires: fortune-mod
 BuildRequires: recode
 
